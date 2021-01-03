@@ -1,6 +1,6 @@
 <?php
 // KaisarCode classes autoloader
-function kcAutoload($dir = '') {
+function kc_autoload($dir = '') {
     spl_autoload_register(
     function ($cls) use ($dir) {
         $ds = DIRECTORY_SEPARATOR;
